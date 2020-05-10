@@ -1,0 +1,20 @@
+{
+  "name": "alicedtrh/emailnormalizer",
+  "description": "A library that does its best to normalize emails from various populair email companies.",
+  "minimum-stability": "stable",
+  "license": "AGPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "AliceDTRH",
+      "email": "57547425+AliceDTRH@users.noreply.github.com"
+    }
+  ],
+  "require": {
+    "php": "^7.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "AliceDTRH\\EmailNormalizer\\": "EmailNormalizer"
+    }
+  }
+}
