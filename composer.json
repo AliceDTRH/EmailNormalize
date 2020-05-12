@@ -1,5 +1,6 @@
 {
   "name": "alicedtrh/emailnormalizer",
+  "type": "package",
   "description": "A library that does its best to normalize emails from various populair email companies.",
   "minimum-stability": "stable",
   "license": "AGPL-3.0-or-later",
@@ -14,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AliceDTRH\\EmailNormalizer\\": "EmailNormalizer"
+      "AliceDTRH\\EmailNormalizer\\": "AliceDTRH/EmailNormalizer"
     }
   }
 }
