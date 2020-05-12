@@ -15,7 +15,7 @@
   },
   "autoload": {
     "psr-4": {
-      "AliceDTRH\\EmailNormalizer\\": "AliceDTRH/EmailNormalizer"
+      "AliceDTRH\\EmailNormalizer\\": "EmailNormalize"
     }
   }
 }
