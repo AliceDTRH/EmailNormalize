@@ -22,3 +22,10 @@ echo($normalizer->normalizeEmail($email)); //Output: exampleemail@gmail.com
 
 ?>
 ```
+## License
+```Text
+AliceDTRH/EmailNormalize is licensed under the GNU Affero General Public License v3.0
+
+Some parts of this code use information from https://github.com/iDoRecall/email-normalize
+which is licensed under the MIT License.
+```
