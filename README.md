@@ -15,6 +15,7 @@ Use like this:
 
 use \AliceDTRH\EmailNormalizer\EmailNormalizer;
 
+$normalizer = new EmailNormalizer();
 $email = "exampLE.Email+example1234@gmail.com";
 
 echo($normalizer->normalizeEmail($email)); //Output: exampleemail@gmail.com
