@@ -6,7 +6,7 @@ This is useful in preventing multiple signups from the same email for games for 
 Currently only supports Google Mail.
 
 Install like this:
-```sh
+```console
 composer require alicedtrh/emailnormalizer
 ```
 Use like this:
