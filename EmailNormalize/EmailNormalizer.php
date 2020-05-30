@@ -26,6 +26,10 @@ class EmailNormalizer {
         'gmail.com' => ['stripchr' => '+','removedots' => True ,'maindomain' => 'gmail.com'],
         'googlemail.com' => ['stripchr' => '+','removedots' => True ,'maindomain' => 'gmail.com'],
         'google.com' => ['stripchr' => '+','removedots' => True ,'maindomain' => 'google.com'],
+        //Microsoft
+        'outlook.com' => ['stripchr' => '+', 'removedots' => False, 'maindomain' => 'outlook.com'],
+        'hotmail.com' => ['stripchr' => '+', 'removedots' => False, 'maindomain' => 'hotmail.com'],
+        'live.com' => ['stripchr' => '+', 'removedots' => False, 'maindomain' => 'live.com'],
     ];
 
     /**
